@@ -1,0 +1,11 @@
+# Pastas de build
+bin/
+obj/
+.vs/
+
+# Configurações locais
+*.db
+*.db-journal
+appsettings.json
+appsettings.Development.json
+.env
