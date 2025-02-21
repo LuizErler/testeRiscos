@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using TesteRiscosDomain.Entities;
+﻿using TesteRiscosDomain.Entities;
 
 namespace TesteRiscosDomain.Interface
 {
