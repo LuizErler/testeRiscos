@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "name": "Expired Rule",
+      "condition": "trade.NextPaymentDate < referenceDate.AddMonths(-1)",
+      "result": "EXPIRED"
+    },
+    {
+      "id": 2,
+      "name": "High Risk Private",
+      "condition": "trade.Value > 1000000 && trade.ClientSector == 'Private'",
+      "result": "HIGHRISK"
+    },
+    {
+      "id": 3,
+      "name": "Medium Risk Public",
+      "condition": "trade.Value > 1000000 && trade.ClientSector == 'Public'",
+      "result": "MEDIUMRISK"
+    }
+  ]
+}
