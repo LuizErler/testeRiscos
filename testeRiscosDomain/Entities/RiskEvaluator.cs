@@ -9,7 +9,7 @@ namespace TesteRiscosDomain.Entities
         public RiskEvaluator()
         {
             _rules.Add((trade, referenceDate) =>
-                trade.NextPaymentDate < referenceDate.AddMonths(-1) ? "EXPIRED" : null);
+                trade.NextPaymentDate < referenceDate.AddDays(-30) ? "EXPIRED" : null);
 
             _rules.Add((trade, referenceDate) =>
                 trade.Value > 1000000 && trade.ClientSector == "Private" ? "HIGHRISK" : null);
