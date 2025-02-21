@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteRiscos", ".\testeRiscos\TesteRiscos.csproj", "{AD66AF0F-CCCC-4554-AEBB-274773EC4FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteRiscosDomain", ".\testeRiscosDomain\TesteRiscosDomain.csproj", "{0605E3AE-BA63-4B5E-8C4A-A217D839ED3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD66AF0F-CCCC-4554-AEBB-274773EC4FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD66AF0F-CCCC-4554-AEBB-274773EC4FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD66AF0F-CCCC-4554-AEBB-274773EC4FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD66AF0F-CCCC-4554-AEBB-274773EC4FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0605E3AE-BA63-4B5E-8C4A-A217D839ED3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0605E3AE-BA63-4B5E-8C4A-A217D839ED3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0605E3AE-BA63-4B5E-8C4A-A217D839ED3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0605E3AE-BA63-4B5E-8C4A-A217D839ED3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
